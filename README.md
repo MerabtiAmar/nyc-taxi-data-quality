@@ -58,4 +58,4 @@ Code distribué sous [licence MIT](LICENSE).
 
 ## Auteurs
 
-**Amar Merabti** et **Lynda Hammouche** — Master 2 DCI, Université Paris Cité.
+**Amar Merabti** — Master 2 DCI, Université Paris Cité.
