@@ -1,0 +1,32 @@
+1) pickup_datetime, dropoff_datetime : 
+    format erroné : 
+                    11-01-2023 20 heure 24 minutes,11-01-2023 20 heure 41 minutes
+                    6 janvier 2023 à 9h08,6 janvier 2023 à 9h57
+                    19-01-2023 21h07,19-01-2023 21h44
+                    ...
+
+    il faut un format unique qui le suivant : 2023-01-10 17:26:00,2023-01-10 18:07:00
+    convertir toutes les dates a ce format
+
+
+2) coordonné gps : pickup_latitude,pickup_longitude,dropoff_latitude,dropoff_longitude
+    rien de special a part les valeurs manquantes
+
+
+3) trip_distance_miles
+    ajout de l'unité (mile) : 
+                              11Miles
+                              3.44  Miles
+                              1.91 MI
+                              2.42  mi
+                              ...
+    correction a faire : supprimer tout text present et garder que les valeurs numériques
+
+4) fare_amount:
+    ajout de la currency :
+                           £ 5.84
+                           10.6€
+                           12.83¥
+                           $16.2
+                           ....
+    correction a faire : supprimer touts les symboles de devise, garder que les valeurs numériques

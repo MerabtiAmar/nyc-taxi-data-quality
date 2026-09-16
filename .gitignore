@@ -1,0 +1,6 @@
+# Rapports ydata-profiling (régénérés par profiling.ipynb)
+*_report.html
+
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
